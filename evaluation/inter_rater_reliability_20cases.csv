@@ -1,0 +1,20 @@
+Package,DEPENDENCY,DEP INFERENCE (AUTHOR 2),REMARK (AUTHOR 2),DEP INFERENCE (AUTHOR 1),Resolution,,,SOLUTION
+io :: crates :: allegro_ttf :: v_0_0_26,io :: crates :: libc :: v_0_1_12,FALSE,just a type (c_int),FALSE,,,,FALSE
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: ns_router :: v_0_1_5,TRUE,"""This is currently emptied""",TRUE,,,,TRUE
+io :: crates :: corruption :: v_0_1_2,io :: crates :: handlebars :: v_0_20_5,FALSE,Response included in lib,FALSE,,,,FALSE
+io :: crates :: disqrust :: v_0_1_0,io :: crates :: disque :: v_0_2_2,FALSE,"simple call, weird it is not resolved",FALSE,,,,FALSE
+io :: crates :: esprit :: v_0_0_4,io :: crates :: unjson :: v_0_0_4,FALSE,"imported via test, used in test extract_string",TRUE,AUTHOR 1 is right; wrong understanding of cfg(test),,,TRUE
+io :: crates :: euclid :: v_0_10_2,io :: crates :: num_traits :: v_0_1_43,FALSE,think num is imported in lib.rs,FALSE,,,,FALSE
+io :: crates :: faktory :: v_0_8_8,io :: crates :: atomic_option :: v_0_1_2,FALSE,used in consumer mod,FALSE,,,,FALSE
+io :: crates :: fast_fmt :: v_0_1_2,io :: crates :: numtoa :: v_0_0_7,FALSE,used in int_impls,FALSE,,,,FALSE
+io :: crates :: libpasta :: v_0_0_4,io :: crates :: optimization :: v_0_1_0,TRUE,just never uses it or redefines its name,TRUE,,,,TRUE
+io :: crates :: liner :: v_0_4_2,io :: crates :: termion :: v_1_5_1,FALSE,uses editor for example,FALSE,,,,FALSE
+io :: crates :: num :: v_0_1_31,io :: crates :: rand :: v_0_3_22,FALSE,included if test and bigint macro,FALSE,,,,FALSE
+io :: crates :: poisson :: v_0_7_0,io :: crates :: nalgebra :: v_0_2_23,FALSE,uses constructor new,TRUE,AUTHOR 1 is right; wrong understanding of [test],,,TRUE
+io :: crates :: postgres_range :: v_0_8_2,io :: crates :: byteorder :: v_0_5_3,FALSE,"imports mod impl, calls write_i8 from byteorder",FALSE,,,,FALSE
+io :: crates :: rados_hi :: v_0_2_2,io :: crates :: ceph_rust :: v_0_1_17,FALSE,"not instantiated, but still called from type Rados",FALSE,,,,FALSE
+io :: crates :: rucaja :: v_0_4_2,io :: crates :: jni_sys :: v_0_3_0,FALSE,imports jni via pub use,FALSE,,,,FALSE
+io :: crates :: rustfm_scrobble :: v_0_9_0,io :: crates :: wrapped_vec :: v_0_2_1,FALSE,scrobble_batch calls iter from wrappedVec,TRUE,AUTHOR 2 is right; oversight on AUTHOR 1,,,FALSE
+io :: crates :: stayalive :: v_0_3_2,io :: crates :: threadpool :: v_1_7_1,FALSE,mod threadpoolbuilders uses it,FALSE,,,,FALSE
+io :: crates :: tokio_file_unix :: v_0_2_0,io :: crates :: mio :: v_0_6_13,FALSE,,FALSE,,,,FALSE
+io :: crates :: tomllib :: v_0_1_2,io :: crates :: pirate :: v_1_0_0,FALSE,,TRUE,AUTHOR 1 is right; oversight on AUTHOR 2,,,TRUE

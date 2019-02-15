@@ -1,0 +1,382 @@
+Source,Target,Correct dep inference?,Remark (if needed),Classification
+io :: crates :: arguments :: v_0_4_0,io :: crates :: options :: v_0_5_1,FALSE,"grep -nr 'options' , yields some calls here!, Options::new() called in parse (gen fn)",CALL-IN-GEN-DEF
+io :: crates :: rdiff :: v_0_1_1,io :: crates :: rust_crypto :: v_0_2_36,FALSE,generic function,GENERIC-FUNC-DF
+io :: crates :: rendezvous_hash :: v_0_1_4,io :: crates :: siphasher :: v_0_1_3,TRUE,not used,NOT-IMPORT
+io :: crates :: lithos :: v_0_13_2,io :: crates :: unshare :: v_0_2_0,FALSE,condtional comp,CONDITIONAL
+io :: crates :: stft :: v_0_1_3,io :: crates :: strider :: v_0_1_3,FALSE,call inside a generic fn,CALL-IN-GEN-DEF
+io :: crates :: rink :: v_0_4_1,io :: crates :: linefeed :: v_0_1_5,TRUE,not imported in library code,NOT-IN-LIB
+io :: crates :: persistent_hashmap :: v_0_3_0,io :: crates :: persistent_array :: v_0_4_0,FALSE,generic function and conditional flag on windows,CONDITIONAL
+io :: crates :: sniffglue :: v_0_4_0,io :: crates :: pcap :: v_0_7_0,TRUE,imported in main.rs,NOT-IN-LIB
+io :: crates :: superlu :: v_0_3_0,io :: crates :: superlu_sys :: v_0_3_2,FALSE,call to c-lib wrapper,C-CALL
+io :: crates :: panini :: v_0_0_0,io :: crates :: typed_arena :: v_1_3_0,FALSE,imported Arena but not used,TYPE-ONLY-DEP
+io :: crates :: internment :: v_0_1_0,io :: crates :: tinyset :: v_0_0_12,FALSE,implements a Trait,TYPE-ONLY-DEP
+io :: crates :: mhost :: v_0_0_2,io :: crates :: resolv_conf :: v_0_4_0,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: unicode_normalization :: v_0_1_5,TRUE,invoked in other modules but not library,NOT-IN-LIB
+io :: crates :: memorydb :: v_0_1_1,io :: crates :: rlp :: v_0_2_1,FALSE,using a constant ,TYPE-ONLY-DEP
+io :: crates :: searchspot :: v_0_11_2,io :: crates :: oath :: v_0_1_4,TRUE,used externally but not in library code,NOT-IMPORT
+io :: crates :: fftw :: v_0_1_0,io :: crates :: fftw_sys :: v_0_1_0,TRUE,invoked in other modules but not library,NOT-IN-LIB
+io :: crates :: websession :: v_0_6_1,io :: crates :: rpassword :: v_2_0_0,TRUE,not part of the library functionality,NOT-IN-LIB
+io :: crates :: mvnc :: v_0_1_3,io :: crates :: half :: v_1_0_2,FALSE,imports data structures,TYPE-ONLY-DEP
+io :: crates :: prost_types :: v_0_2_1,io :: crates :: bytes :: v_0_4_6,TRUE,not imported,NOT-IMPORT
+io :: crates :: dharma :: v_0_1_0,io :: crates :: timerfd :: v_0_2_0,FALSE,call made in pattern match clause (gen fn),CALL-IN-GEN-DEF
+io :: crates :: opentype :: v_0_1_2,io :: crates :: date :: v_0_1_3,FALSE,-,CONDITIONAL
+io :: crates :: discord :: v_0_8_0,io :: crates :: base64_rs :: v_0_1_1,FALSE,both call inside a generic fn and condtional,CONDITIONAL
+io :: crates :: milagro_crypto :: v_0_1_6,io :: crates :: rand :: v_0_3_22,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: lcd :: v_0_3_0,io :: crates :: fast_fmt :: v_0_1_3,FALSE,use of flags,CONDITIONAL
+io :: crates :: servo_glutin :: v_0_12_2,io :: crates :: core_foundation :: v_0_4_6,FALSE,built without OS X flags,CONDITIONAL
+io :: crates :: irc_channel :: v_0_1_1,io :: crates :: irc_message :: v_1_0_0,FALSE,imports only data structures,TYPE-ONLY-DEP
+io :: crates :: lithos :: v_0_13_2,io :: crates :: scan_dir :: v_0_3_3,TRUE,call not in a library,NOT-IN-LIB
+io :: crates :: workerpool :: v_1_0_1,io :: crates :: num_cpus :: v_1_8_0,FALSE,call inside a generic fn body,CALL-IN-GEN-DEF
+io :: crates :: sqa_engine :: v_0_2_4,io :: crates :: bspline :: v_0_2_2,TRUE,not imported ,NOT-IMPORT
+io :: crates :: websession :: v_0_7_0,io :: crates :: rpassword :: v_2_0_0,TRUE,not part of the library code,NOT-IN-LIB
+io :: crates :: xz2 :: v_0_1_4,io :: crates :: lzma_sys :: v_0_1_9,FALSE,dependency functions represented as C calls,C-CALL
+io :: crates :: rustfmt_nightly :: v_0_3_0,io :: crates :: derive_new :: v_0_5_0,FALSE,-,TYPE-ONLY-DEP
+io :: crates :: push_trait :: v_0_3_0,io :: crates :: blist :: v_0_0_4,FALSE,Conditional compilation,CONDITIONAL
+io :: crates :: midir :: v_0_5_0,io :: crates :: jack_sys :: v_0_1_5,FALSE,calls made in an unsafe closure,C-CALL
+io :: crates :: volume :: v_0_3_0,io :: crates :: time_calc :: v_0_10_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: dent :: v_0_4_1,io :: crates :: term :: v_0_4_6,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: specs_sprite :: v_0_3_3,io :: crates :: specs :: v_0_10_0,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: rustfmt_nightly :: v_0_3_1,io :: crates :: derive_new :: v_0_5_0,FALSE,-,TYPE-ONLY-DEP
+io :: crates :: html5ever :: v_0_5_2,io :: crates :: heapsize :: v_0_3_9,FALSE,compiler plugin,CONDITIONAL
+io :: crates :: compressor :: v_0_3_0,io :: crates :: envelope_detector :: v_0_2_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: shadowsocks_rust :: v_1_3_3,io :: crates :: qrcode :: v_0_2_1,TRUE,-,NOT-IMPORT
+io :: crates :: qrcode :: v_0_4_0,io :: crates :: image :: v_0_13_0,FALSE,"#[cfg(feature=""image"")] extern crate image;",CONDITIONAL
+io :: crates :: pazi :: v_0_0_1,io :: crates :: chan_signal :: v_0_3_1,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: rodio :: v_0_3_1,io :: crates :: vorbis :: v_0_0_13,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: diesel :: v_0_13_1,io :: crates :: quickcheck :: v_0_3_2,FALSE,used in test code (but also needs cond compiler),CONDITIONAL
+io :: crates :: trk_io :: v_0_3_5,io :: crates :: nifti :: v_0_4_1,FALSE,-,CONDITIONAL
+io :: crates :: minions :: v_0_2_4,io :: crates :: lossyq :: v_0_1_19,FALSE,call inside generic function,CALL-IN-GEN-DEF
+io :: crates :: txtpic :: v_1_2_2,io :: crates :: bmp :: v_0_2_0,TRUE,not imported ,NOT-IMPORT
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: ns_router :: v_0_1_5,TRUE,empty,NOT-IMPORT
+io :: crates :: tic :: v_0_0_3,io :: crates :: waterfall :: v_0_3_0,FALSE,call in generic,CALL-IN-GEN-DEF
+io :: crates :: voice :: v_0_1_1,io :: crates :: pocketsphinx :: v_0_6_0,TRUE,import stmt commented,NOT-IMPORT
+io :: crates :: connectr :: v_0_1_0,io :: crates :: rubrail :: v_0_4_3,TRUE,-,NOT-IMPORT
+io :: crates :: ciruela :: v_0_2_11,io :: crates :: scan_dir :: v_0_3_3,TRUE,-,NOT-IMPORT
+io :: crates :: ciruela :: v_0_5_4,io :: crates :: tk_listen :: v_0_1_1,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: disqrust :: v_0_1_0,io :: crates :: disque :: v_0_2_2,FALSE,conditional compile flag of the import statement,CONDITIONAL
+io :: crates :: froggy :: v_0_4_2,io :: crates :: spin :: v_0_4_6,FALSE,call inside generic function,CALL-IN-GEN-DEF
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: lazy_static :: v_0_2_11,TRUE,"macro, not written in the code",NOT-IMPORT
+io :: crates :: numeric :: v_0_1_3,io :: crates :: hdf5_sys :: v_0_3_3,FALSE,"macro, not written in the code",MACRO
+io :: crates :: allegro_ttf :: v_0_0_26,io :: crates :: libc :: v_0_1_12,FALSE,just a type (c_int),TYPE-ONLY-DEP
+io :: crates :: panini :: v_0_0_0,io :: crates :: ref_slice :: v_1_1_1,FALSE,not used Arena is there but not used,TYPE-ONLY-DEP
+io :: crates :: poisson :: v_0_7_0,io :: crates :: rand :: v_0_3_22,FALSE,calls in gen fn (and perhaps also dynamic calls),CALL-IN-GEN-DEF
+io :: crates :: tendril :: v_0_2_2,io :: crates :: utf_8 :: v_0_6_0,FALSE,call to dependency in a generic fn,CALL-IN-GEN-DEF
+io :: crates :: liner :: v_0_4_2,io :: crates :: termion :: v_1_5_1,FALSE,Called but no generic def exists,GENERIC-FUNC-DF
+io :: crates :: ogg :: v_0_4_0,io :: crates :: byteorder :: v_0_5_3,FALSE,-,CONDITIONAL
+io :: crates :: conduit_utils :: v_0_8_0,io :: crates :: semver :: v_0_5_1,FALSE,only use of data types,TYPE-ONLY-DEP
+io :: crates :: minutae :: v_0_2_1,io :: crates :: rayon :: v_0_7_1,FALSE,"Dynamic call, rayon::prelude::*",DYNAMIC-CALL
+io :: crates :: grafen :: v_0_9_1,io :: crates :: dialoguer :: v_0_1_0,TRUE,not imported in lib ,NOT-IN-LIB
+io :: crates :: redfa :: v_0_0_2,io :: crates :: vec_map :: v_0_6_0,FALSE,call inside generic function,CALL-IN-GEN-DEF
+io :: crates :: cssparser :: v_0_9_0,io :: crates :: heapsize :: v_0_3_9,FALSE,"#[cfg(feature = ""heapsize"")] #[macro_use] extern crate heapsize;",CONDITIONAL
+io :: crates :: ethereum_types :: v_0_2_3,io :: crates :: uint :: v_0_1_2,TRUE,"Data structures only one ""use"" e.g imported",NOT-IMPORT
+io :: crates :: sha3 :: v_0_2_0,io :: crates :: digest :: v_0_2_1,FALSE,-,DYNAMIC-CALL
+io :: crates :: maze :: v_0_1_2,io :: crates :: css_color_parser :: v_0_1_2,TRUE,not imported,NOT-IMPORT
+io :: crates :: stream_delimit :: v_0_4_2,io :: crates :: kafka :: v_0_6_2,FALSE,conditional compilation,CONDITIONAL
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: tk_listen :: v_0_1_1,TRUE,only used in a binary,NOT-IN-LIB
+io :: crates :: openai :: v_0_1_0,io :: crates :: websocket :: v_0_17_1,TRUE,calls are there but perhaps not exported,NOT-IN-LIB
+io :: crates :: stayalive :: v_0_3_2,io :: crates :: threadpool :: v_1_7_1,FALSE,call inside a generic fn,CALL-IN-GEN-DEF
+io :: crates :: gauc :: v_0_7_0,io :: crates :: ctrlc :: v_3_1_0,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: coco :: v_0_3_4,io :: crates :: scopeguard :: v_0_3_3,TRUE,not imported,NOT-IMPORT
+io :: crates :: maze :: v_0_1_1,io :: crates :: imageproc :: v_0_6_1,FALSE,call inside a generic fn,CALL-IN-GEN-DEF
+io :: crates :: amq_protocol :: v_0_17_0,io :: crates :: cookie_factory :: v_0_2_2,FALSE,macro calls,MACRO
+io :: crates :: rotor_stream :: v_0_4_0,io :: crates :: void :: v_0_0_5,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: twist :: v_0_6_0,io :: crates :: slog_atomic :: v_0_4_3,TRUE,nothing imported,NOT-IMPORT
+io :: crates :: voronoi :: v_0_1_0,io :: crates :: stopwatch :: v_0_0_7,TRUE,declared but not used,NOT-IMPORT
+io :: crates :: pamsm :: v_0_1_0,io :: crates :: time :: v_0_1_39,TRUE,commented out in the code,NOT-IMPORT
+io :: crates :: pastebin :: v_0_17_2,io :: crates :: mongo_driver :: v_0_12_0,TRUE,no import in the library code,NOT-IN-LIB
+io :: crates :: euclid :: v_0_10_2,io :: crates :: heapsize :: v_0_3_9,FALSE,only datatypes,TYPE-ONLY-DEP
+io :: crates :: cpal :: v_0_8_0,io :: crates :: stdweb :: v_0_1_3,FALSE,conditional comp,CONDITIONAL
+io :: crates :: webidl :: v_0_2_0,io :: crates :: lalrpop_util :: v_0_13_1,FALSE,-,TYPE-ONLY-DEP
+io :: crates :: pdf_extract :: v_0_3_0,io :: crates :: postscript :: v_0_11_1,FALSE,unused dependency,TYPE-ONLY-DEP
+io :: crates :: fast_fmt :: v_0_1_2,io :: crates :: void :: v_1_0_2,FALSE,-,CONDITIONAL
+io :: crates :: midir :: v_0_5_0,io :: crates :: memalloc :: v_0_1_0,FALSE,unsafe closure,C-CALL
+io :: crates :: euclid :: v_0_10_2,io :: crates :: log :: v_0_3_9,FALSE,macro call,MACRO
+io :: crates :: code_sandwich_crates_io_release_test_macros :: v_0_1_1,io :: crates :: syn :: v_0_11_11,FALSE,not used,MACRO
+io :: crates :: minutae :: v_0_2_0,io :: crates :: rayon :: v_0_7_1,FALSE,"Dynamic call, rayon::prelude::*",DYNAMIC-CALL
+io :: crates :: tm4c123x :: v_0_4_0,io :: crates :: cortex_m :: v_0_2_12,FALSE,only constands and data structs are used from cortex_m but no call or fn impl,TYPE-ONLY-DEP
+io :: crates :: wayland_scanner :: v_0_12_3,io :: crates :: xml_rs :: v_0_7_0,FALSE,calls to xml inside gen fn,CALL-IN-GEN-DEF
+io :: crates :: arraydeque :: v_0_1_2,io :: crates :: nodrop :: v_0_1_12,FALSE,call made in an unsafe closure,C-CALL
+io :: crates :: rubrail :: v_0_5_0,io :: crates :: fruitbasket :: v_0_4_1,TRUE,-,NOT-IMPORT
+io :: crates :: fitsio :: v_0_5_2,io :: crates :: fitsio_sys :: v_0_2_3,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: gattii :: v_0_10_0,io :: crates :: gdk :: v_0_5_3,TRUE,not imported,NOT-IMPORT
+io :: crates :: lewton :: v_0_6_1,io :: crates :: ieee754 :: v_0_2_2,FALSE,-,CONDITIONAL
+io :: crates :: rebind :: v_0_0_4,io :: crates :: itertools :: v_0_3_25,TRUE,-,NOT-IMPORT
+io :: crates :: xstream :: v_0_1_0,io :: crates :: miscreant :: v_0_3_0,FALSE,only imported DS,TYPE-ONLY-DEP
+io :: crates :: rsign :: v_0_1_0,io :: crates :: rpassword :: v_1_0_2,TRUE,only imported in main,NOT-IN-LIB
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: scan_dir :: v_0_3_3,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: vek :: v_0_6_0,io :: crates :: fix :: v_0_1_1,FALSE,-,CONDITIONAL
+io :: crates :: evic :: v_0_1_1,io :: crates :: getopts :: v_0_2_17,TRUE,-,NOT-IMPORT
+io :: crates :: uhttp_json_api :: v_0_6_1,io :: crates :: uhttp_version :: v_0_6_0,TRUE,imported for test,TEST-CODE
+io :: crates :: bcmp :: v_0_1_0,io :: crates :: bytepack :: v_0_3_1,FALSE,"dynamic call, while hard to see, there is a call 'unpack'",DYNAMIC-CALL
+io :: crates :: maze :: v_0_1_2,io :: crates :: imageproc :: v_0_6_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: exonum :: v_0_3_0,io :: crates :: headers :: v_0_1_0,TRUE,-,NOT-IMPORT
+io :: crates :: zopfli :: v_0_3_4,io :: crates :: adler32 :: v_0_2_0,FALSE,-,DYNAMIC-CALL
+io :: crates :: cairo_sys_rs :: v_0_3_2,io :: crates :: x11 :: v_2_17_2,FALSE,"#cfg feature, needs x11::xlib set",CONDITIONAL
+io :: crates :: hwaddr :: v_0_1_3,io :: crates :: phf :: v_0_7_21,TRUE,-,NOT-IMPORT
+io :: crates :: criterion_plot :: v_0_1_0,io :: crates :: itertools :: v_0_4_19,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: rebind :: v_0_0_4,io :: crates :: fnv :: v_1_0_6,FALSE,-,CONDITIONAL
+io :: crates :: text_diff :: v_0_4_0,io :: crates :: getopts :: v_0_2_17,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: simple_stream :: v_0_2_7,io :: crates :: log :: v_0_3_9,FALSE,imported but no macro calls made,TYPE-ONLY-DEP
+io :: crates :: dsp_chain :: v_0_13_0,io :: crates :: daggy :: v_0_4_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: simple_stream :: v_0_2_9,io :: crates :: openssl :: v_0_7_14,FALSE,"not called, gen def missing",GENERIC-FUNC-DF
+io :: crates :: netio :: v_0_4_2,io :: crates :: memchr :: v_0_1_11,FALSE,"memchr is a C-wrapper, so showing it as C-calls",C-CALL
+io :: crates :: mysql_common :: v_0_5_0,io :: crates :: bitflags :: v_1_0_1,FALSE,Macro invocations,MACRO
+io :: crates :: metrics_distributor :: v_0_1_0,io :: crates :: router :: v_0_1_1,TRUE,used in example but not as part of the lib,NOT-IMPORT
+io :: crates :: esprit :: v_0_0_4,io :: crates :: unjson :: v_0_0_4,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: code_sandwich_crates_io_release_test :: v_0_1_1,io :: crates :: code_sandwich_crates_io_release_test_macros :: v_0_1_1,FALSE,macros,MACRO
+io :: crates :: pazi :: v_0_0_1,io :: crates :: chan :: v_0_1_21,TRUE,Not imported in lib.rs,NOT-IN-LIB
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: mopa :: v_0_2_2,FALSE,macro invocations,MACRO
+io :: crates :: path_abs :: v_0_2_0,io :: crates :: stfu8 :: v_0_2_4,FALSE,-,CONDITIONAL
+io :: crates :: repomon :: v_0_1_0,io :: crates :: getset :: v_0_0_5,TRUE,not imported in library code,NOT-IN-LIB
+io :: crates :: servo_glutin :: v_0_12_2,io :: crates :: core_graphics :: v_0_9_1,FALSE,OS X specific,CONDITIONAL
+io :: crates :: staticfile :: v_0_3_1,io :: crates :: iron :: v_0_4_0,FALSE,-,DYNAMIC-CALL
+io :: crates :: gateway :: v_0_0_0,io :: crates :: cpython_json :: v_0_2_0,TRUE,Not even written in src,NOT-IMPORT
+io :: crates :: poisson :: v_0_7_0,io :: crates :: nalgebra :: v_0_2_23,TRUE,not used,NOT-IMPORT
+io :: crates :: boldline :: v_0_1_1,io :: crates :: clap :: v_2_30_0,TRUE,Not even written in src,NOT-IMPORT
+io :: crates :: android_logger :: v_0_2_4,io :: crates :: android_log_sys :: v_0_1_2,TRUE,not imported,NOT-IMPORT
+io :: crates :: push_trait :: v_0_3_0,io :: crates :: linear_map :: v_0_0_4,FALSE,"#[cfg(feature = ""linear-map"")] but no extern",CONDITIONAL
+io :: crates :: pancakes :: v_0_1_0,io :: crates :: gimli :: v_0_9_0,TRUE,just imported and not used,NOT-IMPORT
+io :: crates :: an_rope :: v_0_3_1,io :: crates :: tendril :: v_0_2_4,FALSE,conditional,CONDITIONAL
+io :: crates :: ff_find :: v_0_12_0,io :: crates :: find_mountpoint :: v_1_0_3,TRUE,not imported in the lib,NOT-IN-LIB
+io :: crates :: rsgenetic :: v_0_8_10,io :: crates :: time :: v_0_1_39,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: rowcol :: v_0_3_2,io :: crates :: odds :: v_0_2_26,FALSE,inside unsafe brackets,C-CALL
+io :: crates :: rowcol :: v_0_3_2,io :: crates :: nodrop :: v_0_1_12,FALSE,call in a generic function,CALL-IN-GEN-DEF
+io :: crates :: immutable_seq :: v_0_1_2,io :: crates :: quickcheck :: v_0_4_2,TRUE,no import,NOT-IMPORT
+io :: crates :: tracetree :: v_0_1_5,io :: crates :: spawn_ptrace :: v_0_1_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: resource_proof :: v_0_1_0,io :: crates :: termion :: v_1_1_4,TRUE,not imported,NOT-IMPORT
+io :: crates :: dlopen :: v_0_1_1,io :: crates :: dlopen_derive :: v_0_1_1,TRUE,-,NOT-IMPORT
+io :: crates :: wyrm :: v_0_4_0,io :: crates :: stdsimd :: v_0_0_3,FALSE,call inside unsafe closure,C-CALL
+io :: crates :: minterpolate :: v_0_2_1,io :: crates :: mint :: v_0_4_9,FALSE,missing fn defs,GENERIC-FUNC-DF
+io :: crates :: badger :: v_0_2_0,io :: crates :: docopt :: v_0_6_86,TRUE,"not imported, used in main.rs",NOT-IN-LIB
+io :: crates :: beam :: v_0_2_0,io :: crates :: point :: v_0_3_1,FALSE,ds imported  ,TYPE-ONLY-DEP
+io :: crates :: pod :: v_0_1_1,io :: crates :: nue_io :: v_0_1_0,TRUE,seems to be imported in modules also many lines commented,NOT-IN-LIB
+io :: crates :: rustfm_scrobble :: v_0_9_0,io :: crates :: wrapped_vec :: v_0_2_1,FALSE,scrobble_batch calls iter from wrappedVec,MACRO
+io :: crates :: cmac :: v_0_1_0,io :: crates :: block_cipher_trait :: v_0_5_0,FALSE,-,TYPE-ONLY-DEP
+io :: crates :: sophon_wasm :: v_0_15_3,io :: crates :: log :: v_0_3_9,TRUE,no use of the log macro,NOT-IMPORT
+io :: crates :: lexer :: v_0_1_9,io :: crates :: chars_input :: v_0_2_2,FALSE,-,CONDITIONAL
+io :: crates :: blake2 :: v_0_3_0,io :: crates :: digest :: v_0_3_1,FALSE,types used in implementation,TYPE-ONLY-DEP
+io :: crates :: pop_trait :: v_0_2_1,io :: crates :: blist :: v_0_0_4,FALSE,-,CONDITIONAL
+io :: crates :: pyo3 :: v_0_2_3,io :: crates :: pyo3cls :: v_0_2_1,FALSE,"imported but not used (also checked for class(, method(, proto( in the codebased)",TYPE-ONLY-DEP
+io :: crates :: md4 :: v_0_7_0,io :: crates :: fake_simd :: v_0_1_2,FALSE,"u32x4 used is a struct (looked like it was a call), so no call here",TYPE-ONLY-DEP
+io :: crates :: melo :: v_0_1_0,io :: crates :: structopt_derive :: v_0_1_6,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: tenjin :: v_0_4_0,io :: crates :: htmlescape :: v_0_3_1,FALSE,-,CONDITIONAL
+io :: crates :: geohash :: v_0_2_7,io :: crates :: geo :: v_0_0_7,FALSE,Only uses DS and its fields,TYPE-ONLY-DEP
+io :: crates :: phf_shared :: v_0_7_20,io :: crates :: unicase :: v_1_4_2,FALSE,-,CONDITIONAL
+io :: crates :: cssparser :: v_0_9_0,io :: crates :: serde :: v_0_8_23,FALSE,"[cfg(feature = ""serde"")] extern crate serde;",CONDITIONAL
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: gumdrop :: v_0_4_0,FALSE,use of macro functions,MACRO
+io :: crates :: twist :: v_0_1_4,io :: crates :: slog_atomic :: v_0_4_3,TRUE,not imported,NOT-IMPORT
+io :: crates :: undo :: v_0_4_0,io :: crates :: fnv :: v_1_0_6,TRUE,-,NOT-IMPORT
+io :: crates :: cargo_update :: v_0_6_2,io :: crates :: tabwriter :: v_0_1_25,TRUE,-,NOT-IMPORT
+io :: crates :: tui :: v_0_1_3,io :: crates :: log :: v_0_3_9,FALSE,imported but no macro call used ,TYPE-ONLY-DEP
+io :: crates :: arthas :: v_0_1_1,io :: crates :: serde_derive :: v_0_8_23,FALSE, impl traits from the dependency (but no invocation),TYPE-ONLY-DEP
+io :: crates :: djangohashers :: v_0_2_1,io :: crates :: fastpbkdf2 :: v_0_1_0,FALSE,conditional,CONDITIONAL
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: sdl2 :: v_0_30_0,FALSE,call inside generic function,CALL-IN-GEN-DEF
+io :: crates :: sniffglue :: v_0_4_0,io :: crates :: seccomp_sys :: v_0_1_2,FALSE,no function calls (but condtional),CONDITIONAL
+io :: crates :: terminal_graphics :: v_0_1_0,io :: crates :: termion :: v_1_5_1,TRUE,-,NOT-IMPORT
+io :: crates :: typemap :: v_0_3_0,io :: crates :: unsafe_any :: v_0_4_2,FALSE,just type maping,TYPE-ONLY-DEP
+io :: crates :: tm4c123x :: v_0_6_0,io :: crates :: cortex_m :: v_0_4_3,FALSE,data structs use,TYPE-ONLY-DEP
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: ssh_keys :: v_0_1_0,FALSE,dynamic call,DYNAMIC-CALL
+io :: crates :: immi :: v_0_1_3,io :: crates :: time :: v_0_1_39,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: ethereum_types :: v_0_1_1,io :: crates :: uint :: v_0_1_2,FALSE,macro calls construct_uint!,MACRO
+io :: crates :: sophon_wasm :: v_0_15_3,io :: crates :: byteorder :: v_1_2_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: ciruela :: v_0_5_4,io :: crates :: ns_env_config :: v_0_1_0,TRUE,"not exported in lib.rs, but part of main.rs",NOT-IN-LIB
+io :: crates :: minifb :: v_0_7_1,io :: crates :: x11_dl :: v_2_2_1,FALSE,only constants used in keysym https://github.com/Daggerbot/x11-rs/blob/master/src/keysym.rs,TYPE-ONLY-DEP
+io :: crates :: cargo_update :: v_0_6_4,io :: crates :: lazysort :: v_0_1_1,TRUE,-,NOT-IMPORT
+io :: crates :: ketree :: v_0_3_0,io :: crates :: ketos :: v_0_10_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: xstream :: v_0_1_0,io :: crates :: hkdf :: v_0_3_0,TRUE,used in submodule,NOT-IN-LIB
+io :: crates :: rusoto_elasticache :: v_0_25_0,io :: crates :: xml_rs :: v_0_3_8,TRUE,not imported,NOT-IMPORT
+io :: crates :: postgres_range :: v_0_8_2,io :: crates :: byteorder :: v_0_5_3,FALSE,dynamic function call,DYNAMIC-CALL
+io :: crates :: yaml_rust :: v_0_3_4,io :: crates :: linked_hash_map :: v_0_3_0,FALSE,defined as type,TYPE-ONLY-DEP
+io :: crates :: rad :: v_0_2_1,io :: crates :: ceph_rust :: v_0_1_17,FALSE,calls inside unsafe closure,C-CALL
+io :: crates :: conduit_router :: v_0_8_0,io :: crates :: semver :: v_0_5_1,TRUE,"used inside #[cfg(test)], shoudl be declered as test-dep",TEST-CODE
+io :: crates :: voice :: v_0_1_1,io :: crates :: eudex :: v_0_1_1,TRUE,-,NOT-IMPORT
+io :: crates :: atty :: v_0_2_6,io :: crates :: termion :: v_1_5_1,FALSE,"function called for redos, due to condtional comp",CONDITIONAL
+io :: crates :: fruently :: v_0_7_2,io :: crates :: rmp_serialize :: v_0_8_0,FALSE,,CALL-IN-GEN-DEF
+io :: crates :: groestl :: v_0_1_0,io :: crates :: digest_buffer :: v_0_2_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: vidar :: v_0_1_0,io :: crates :: getset :: v_0_0_5,TRUE,Imported but never used,NOT-IMPORT
+io :: crates :: mp4parse :: v_0_0_5,io :: crates :: byteorder :: v_0_3_13,FALSE,-,CONDITIONAL
+io :: crates :: xmath :: v_0_2_4,io :: crates :: glium :: v_0_14_0,FALSE,-,CONDITIONAL
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: time :: v_0_1_39,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: dds_rs :: v_0_2_0,io :: crates :: clap :: v_2_30_0,TRUE,not part of the lib,NOT-IN-LIB
+io :: crates :: maze :: v_0_1_2,io :: crates :: serde_derive :: v_0_8_23,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: image :: v_0_13_0,TRUE,imported in view.rs,NOT-IN-LIB
+io :: crates :: postgres_range :: v_0_8_2,io :: crates :: postgres :: v_0_11_12,FALSE,call inside a generic fn,CALL-IN-GEN-DEF
+io :: crates :: fftw :: v_0_4_0,io :: crates :: procedurals :: v_0_2_3,FALSE,import but perhaps no show due to condtional,CONDITIONAL
+io :: crates :: license :: v_0_4_0,io :: crates :: bitflags :: v_1_0_1,FALSE,calling macro functions from the dependency,MACRO
+io :: crates :: lcov_parser :: v_0_1_0,io :: crates :: lines :: v_0_0_3,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: condition_variable :: v_0_1_5,io :: crates :: time :: v_0_1_39,FALSE,"gen fn, time called in `	pub fn wait_for_condition_ms<F:FnMut(&T) -> bool>(&self, mut cond_func: F, timeout_ms: i64)`",CALL-IN-GEN-DEF
+io :: crates :: rls_analysis :: v_0_7_1,io :: crates :: derive_new :: v_0_5_0,FALSE,imported macros (macro invocations),MACRO
+io :: crates :: eep :: v_0_1_0,io :: crates :: leb128 :: v_0_2_2,FALSE,imported but not used,CONDITIONAL
+io :: crates :: webview :: v_0_1_1,io :: crates :: urlencoding :: v_1_0_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: sat :: v_0_1_0,io :: crates :: tempfile :: v_2_2_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: greenglas :: v_0_2_0,io :: crates :: coaster :: v_0_1_0,FALSE,missing def,GENERIC-FUNC-DF
+io :: crates :: serenity :: v_0_4_1,io :: crates :: bitflags :: v_1_0_1,FALSE,macro invocation,MACRO
+io :: crates :: coco :: v_0_2_0,io :: crates :: either :: v_1_4_0,FALSE,-,CONDITIONAL
+io :: crates :: circbuf :: v_0_1_0,io :: crates :: vecio :: v_0_1_0,TRUE,only used in test cases,TEST-CODE
+io :: crates :: worldgen :: v_0_3_2,io :: crates :: wrapping_macros :: v_0_4_13,TRUE,"compiler plugin, extending the compiler behaviour #![plugin(wrapping_macros)]",NOT-IMPORT
+io :: crates :: specs_camera :: v_0_3_3,io :: crates :: specs :: v_0_10_0,FALSE,missing def,GENERIC-FUNC-DF
+io :: crates :: reproto_semver :: v_0_3_10,io :: crates :: serde :: v_1_0_27,FALSE,generic call,CALL-IN-GEN-DEF
+io :: crates :: dds_rs :: v_0_2_0,io :: crates :: prettytable_rs :: v_0_6_7,TRUE,not imported in library code,NOT-IN-LIB
+io :: crates :: ruma_client_api :: v_0_1_0,io :: crates :: ruma_api_macros :: v_0_1_0,FALSE,macro declerations only,MACRO
+io :: crates :: ena :: v_0_9_0,io :: crates :: dogged :: v_0_2_0,TRUE,imported but not used,NOT-IMPORT
+io :: crates :: gattii :: v_0_10_0,io :: crates :: clap :: v_2_30_0,TRUE,not imported in lib,NOT-IN-LIB
+io :: crates :: panini :: v_0_0_0,io :: crates :: cfg :: v_0_3_0,FALSE,not used Arena is the,TYPE-ONLY-DEP
+io :: crates :: font :: v_0_0_5,io :: crates :: opentype :: v_0_9_1,FALSE,,CALL-IN-GEN-DEF
+io :: crates :: s32k144 :: v_0_8_0,io :: crates :: cortex_m :: v_0_4_3,FALSE,calls inside unsafe closure,C-CALL
+io :: crates :: euclid :: v_0_10_2,io :: crates :: serde :: v_0_8_23,FALSE,datatypes used in struct impl,TYPE-ONLY-DEP
+io :: crates :: redo :: v_0_3_0,io :: crates :: fnv :: v_1_0_6,TRUE,Seems like it is not exported in lib.rs ,NOT-IN-LIB
+io :: crates :: redfa :: v_0_0_2,io :: crates :: bit_set :: v_0_4_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: ciruela :: v_0_2_8,io :: crates :: ssh_keys :: v_0_1_0,TRUE,no import,NOT-IMPORT
+io :: crates :: symbolic_proguard :: v_2_0_6,io :: crates :: proguard :: v_1_0_0,FALSE,missing def,GENERIC-FUNC-DF
+io :: crates :: faktory :: v_0_8_8,io :: crates :: atomic_option :: v_0_1_2,FALSE,Call inside generic,CALL-IN-GEN-DEF
+io :: crates :: md_5 :: v_0_4_4,io :: crates :: md5_asm :: v_0_2_1,FALSE,fn call is inside a anonymous clousure which is from a generif cfield type,CALL-IN-GEN-DEF
+io :: crates :: fast_fmt :: v_0_1_2,io :: crates :: numtoa :: v_0_0_7,FALSE,used in macro def,MACRO
+io :: crates :: disqrust :: v_0_1_0,io :: crates :: redis :: v_0_5_4,TRUE,imported in test,TEST-CODE
+io :: crates :: gattii :: v_0_10_0,io :: crates :: gtk :: v_0_1_3,FALSE,use of macro features,MACRO
+io :: crates :: bf :: v_0_4_3,io :: crates :: dynasmrt :: v_0_1_3,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: push_trait :: v_0_3_0,io :: crates :: enum_set :: v_0_0_7,FALSE,"#[cfg(feature = ""enum-set"")] but data structures used for impl",CONDITIONAL
+io :: crates :: arthas :: v_0_1_1,io :: crates :: objectid :: v_0_1_0,FALSE,imported in use stmt but not used,TYPE-ONLY-DEP
+io :: crates :: text_diff :: v_0_4_0,io :: crates :: term :: v_0_2_14,TRUE,"just on examples.md, not even in code",NOT-IMPORT
+io :: crates :: melo :: v_0_1_0,io :: crates :: mktemp :: v_0_3_1,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: parasailors :: v_0_1_1,io :: crates :: parasail_sys :: v_0_1_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: gear :: v_0_1_1,io :: crates :: k :: v_0_4_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: rulinalg :: v_0_0_2,io :: crates :: matrixmultiply :: v_0_1_14,FALSE,called inside unsafe bracket,C-CALL
+io :: crates :: curl :: v_0_3_4,io :: crates :: libc :: v_0_2_36,FALSE,"call is made at libc::atexit(), in the callgraph, libc call appear as atexit()",C-CALL
+io :: crates :: micro_kit :: v_1_2_0,io :: crates :: metrics :: v_0_2_3,FALSE,dynamic dispatch (ref ),DYNAMIC-CALL
+io :: crates :: ioc :: v_0_6_2,io :: crates :: downcast :: v_0_6_0,FALSE,used as a DS,TYPE-ONLY-DEP
+io :: crates :: conrod :: v_0_41_0,io :: crates :: piston_window :: v_0_52_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: euclid :: v_0_8_2,io :: crates :: serde :: v_0_7_15,FALSE,inside generic fn and macro defs,MACRO
+io :: crates :: postgres :: v_0_11_10,io :: crates :: eui48 :: v_0_1_0,FALSE,-,CONDITIONAL
+io :: crates :: http_api_problem :: v_0_2_5,io :: crates :: iron :: v_0_6_0,FALSE,"#[cfg(feature = ""iron"")]",CONDITIONAL
+io :: crates :: servo_glutin :: v_0_12_2,io :: crates :: objc :: v_0_2_2,FALSE,"OS X specific,",CONDITIONAL
+io :: crates :: llvm_build_utils :: v_0_2_0,io :: crates :: mktemp :: v_0_2_1,FALSE,call inside unsafe closure,C-CALL
+io :: crates :: panini :: v_0_0_0,io :: crates :: gearley :: v_0_0_1,FALSE,Dynamic call `let rightmost_dot_trace = recognizer.grammar().trace()[2];`,DYNAMIC-CALL
+io :: crates :: rss_rs :: v_0_1_0,io :: crates :: quick_xml :: v_0_3_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: aklat :: v_0_0_19,io :: crates :: ws :: v_0_6_1,TRUE,not in lib.rs,NOT-IN-LIB
+io :: crates :: lyon_tessellation :: v_0_5_0,io :: crates :: lyon_path :: v_0_5_0,TRUE,import statments commented,NOT-IMPORT
+io :: crates :: persistent_hashmap :: v_0_3_0,io :: crates :: twox_hash :: v_1_1_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: cmac :: v_0_1_0,io :: crates :: dbl :: v_0_1_0,FALSE,-,DYNAMIC-CALL
+io :: crates :: thunk :: v_0_3_0,io :: crates :: unreachable :: v_1_0_0,FALSE,unsafe,C-CALL
+io :: crates :: thunk :: v_0_1_0,io :: crates :: unreachable :: v_1_0_0,FALSE,unsafe,C-CALL
+io :: crates :: criterion_plot :: v_0_1_0,io :: crates :: byteorder :: v_0_4_2,FALSE,"data types used in write_f64, no function calls",TYPE-ONLY-DEP
+io :: crates :: stl :: v_0_2_0,io :: crates :: byteorder :: v_0_4_2,FALSE,"calls inside generic (e,g, the write operation)",CALL-IN-GEN-DEF
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: gumdrop_derive :: v_0_4_0,TRUE,not imported  but in main,NOT-IMPORT
+io :: crates :: lapin_futures :: v_0_5_0,io :: crates :: amq_protocol :: v_0_11_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: brev :: v_0_1_6,io :: crates :: glob :: v_0_2_11,FALSE,call in generic func body,CALL-IN-GEN-DEF
+io :: crates :: Lattice :: v_0_3_11,io :: crates :: rusttype :: v_0_2_3,TRUE,imported in window.rs but not lib.rs,NOT-IN-LIB
+io :: crates :: httpbin :: v_0_2_1,io :: crates :: tk_listen :: v_0_1_1,TRUE,Not imported in lib.rs,NOT-IN-LIB
+io :: crates :: twoway :: v_0_1_2,io :: crates :: odds :: v_0_2_26,TRUE,not exported in lib,NOT-IN-LIB
+io :: crates :: elastic_reqwest :: v_0_2_0,io :: crates :: elastic_requests :: v_0_1_7,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: pancakes :: v_0_1_0,io :: crates :: findshlibs :: v_0_2_0,TRUE,just imported and not used,NOT-IMPORT
+io :: crates :: charmhelpers :: v_0_1_2,io :: crates :: log :: v_0_3_9,FALSE,only use of DS struct but also empty functions,TYPE-ONLY-DEP
+io :: crates :: self_meter :: v_0_4_2,io :: crates :: serde_derive :: v_0_9_15,FALSE,"only declered with macro tag, used as macro",MACRO
+io :: crates :: tantivy :: v_0_4_4,io :: crates :: version :: v_2_0_1,FALSE,macro call,MACRO
+io :: crates :: specs_sprite :: v_0_3_2,io :: crates :: specs :: v_0_10_0,TRUE,not imported in the lib,NOT-IN-LIB
+io :: crates :: smpl_jwt :: v_0_1_2,io :: crates :: serde_derive :: v_0_8_23,FALSE,custom trait impl but not called,TYPE-ONLY-DEP
+io :: crates :: libpasta :: v_0_0_4,io :: crates :: optimization :: v_0_1_0,TRUE,never used,NOT-IMPORT
+io :: crates :: mp4parse :: v_0_10_0,io :: crates :: abort_on_panic :: v_1_0_0,TRUE,"while it is optional, it is not even used in the first place",NOT-IMPORT
+io :: crates :: mould_file :: v_0_0_6,io :: crates :: mould :: v_0_0_17,FALSE,macro use,MACRO
+io :: crates :: finder_info :: v_0_1_0,io :: crates :: hex :: v_0_3_1,TRUE,not imported in the library,NOT-IN-LIB
+io :: crates :: pastebin :: v_0_4_3,io :: crates :: mongo_driver :: v_0_11_0,TRUE,not imported into lib.rs,NOT-IN-LIB
+io :: crates :: tchannel :: v_0_0_2,io :: crates :: futures :: v_0_1_18,FALSE,-,CONDITIONAL
+io :: crates :: self_meter :: v_0_4_2,io :: crates :: serde :: v_0_9_15,FALSE,,CONDITIONAL
+io :: crates :: coap :: v_0_2_2,io :: crates :: threadpool :: v_0_1_4,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: blake2 :: v_0_3_0,io :: crates :: crypto_ops :: v_0_1_1,FALSE,"part of generic impl, calls inside",CALL-IN-GEN-DEF
+io :: crates :: spectra :: v_0_1_0,io :: crates :: vorbis :: v_0_1_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: postgres_range :: v_0_8_2,io :: crates :: time :: v_0_1_39,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: termage :: v_1_0_0,io :: crates :: terminal_size :: v_0_1_7,TRUE,Not imported in lib.rs,NOT-IN-LIB
+io :: crates :: piston2d_sprite :: v_0_20_0,io :: crates :: uuid :: v_0_1_18,TRUE,-,NOT-IMPORT
+io :: crates :: code_sandwich_crates_io_release_test_macros :: v_0_1_1,io :: crates :: quote :: v_0_3_15,FALSE,types not used,TYPE-ONLY-DEP
+io :: crates :: dependy :: v_0_4_0,io :: crates :: daggy :: v_0_5_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: s32k144 :: v_0_8_0,io :: crates :: bare_metal :: v_0_1_1,FALSE,impl trait fn but none is called,TYPE-ONLY-DEP
+io :: crates :: diesel :: v_1_1_1,io :: crates :: uuid :: v_0_5_1,FALSE,-,CONDITIONAL
+io :: crates :: dcolor :: v_0_3_0,io :: crates :: dnum :: v_0_3_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: lather :: v_0_0_0,io :: crates :: bencher :: v_0_1_5,TRUE,only imported in bin,NOT-IN-LIB
+io :: crates :: reustmann :: v_0_1_1,io :: crates :: rustyline :: v_0_2_3,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: url :: v_1_2_1,io :: crates :: encoding :: v_0_2_33,FALSE,-,CONDITIONAL
+io :: crates :: bip39 :: v_0_4_1,io :: crates :: bitreader :: v_0_3_1,FALSE,call inside generic,CALL-IN-GEN-DEF
+io :: crates :: ciruela :: v_0_5_3,io :: crates :: ns_env_config :: v_0_1_0,TRUE,only imported in bin,NOT-IN-LIB
+io :: crates :: tic :: v_0_3_0,io :: crates :: clocksource :: v_0_2_3,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: euclid :: v_0_10_2,io :: crates :: num_traits :: v_0_1_43,FALSE,the call to num_trait is made in a gen fn,CALL-IN-GEN-DEF
+io :: crates :: spectra :: v_0_8_0,io :: crates :: vorbis :: v_0_1_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: shred :: v_0_5_1,io :: crates :: mopa :: v_0_2_2,FALSE,imported as a datatype and no impl,TYPE-ONLY-DEP
+io :: crates :: xmodem :: v_0_1_3,io :: crates :: log :: v_0_3_9,FALSE,invoking a macro function,MACRO
+io :: crates :: unicode_script :: v_0_1_1,io :: crates :: harfbuzz_sys :: v_0_1_15,FALSE,-,CONDITIONAL
+io :: crates :: stochastic :: v_0_5_1,io :: crates :: probability :: v_0_15_11,FALSE,call inside a gen fn,CALL-IN-GEN-DEF
+io :: crates :: he_di :: v_0_1_0,io :: crates :: he_di_internals :: v_0_1_0,FALSE,Imported and used as a datatype,TYPE-ONLY-DEP
+io :: crates :: pokereval :: v_0_1_0,io :: crates :: holdem :: v_0_1_2,TRUE,imported only in bin,NOT-IN-LIB
+io :: crates :: safe_vault :: v_0_18_0,io :: crates :: fake_clock :: v_0_2_0,TRUE,only in test,TEST-CODE
+io :: crates :: tomllib :: v_0_1_2,io :: crates :: pirate :: v_1_0_0,TRUE,not declared in the library code,NOT-IMPORT
+io :: crates :: sophon_wasm :: v_0_15_3,io :: crates :: parking_lot :: v_0_4_8,TRUE,part of binary,NOT-IN-LIB
+io :: crates :: cargo_update :: v_0_6_4,io :: crates :: tabwriter :: v_0_1_25,FALSE,using a constant,TYPE-ONLY-DEP
+io :: crates :: stdcli :: v_0_1_0,io :: crates :: dialoguer :: v_0_1_0,FALSE,"imports enums an structs, but no visible call",TYPE-ONLY-DEP
+io :: crates :: flx :: v_0_2_2,io :: crates :: unicode_normalization :: v_0_1_5,TRUE,only for testing,TEST-CODE
+io :: crates :: euclid :: v_0_10_2,io :: crates :: rustc_serialize :: v_0_3_24,TRUE,not used,NOT-IMPORT
+io :: crates :: encode_unicode :: v_0_2_0,io :: crates :: ascii :: v_0_7_1,FALSE,-,CONDITIONAL
+io :: crates :: rdiff :: v_0_1_0,io :: crates :: rust_crypto :: v_0_2_36,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: fitsio :: v_0_7_0,io :: crates :: fitsio_sys :: v_0_2_3,FALSE,C-symbols,C-CALL
+io :: crates :: julia :: v_0_2_1,io :: crates :: liner :: v_0_4_4,TRUE,Not imported in lib.rs,NOT-IN-LIB
+io :: crates :: simple_jwt :: v_0_9_0,io :: crates :: serde_derive :: v_0_8_23,FALSE,used as flag,CONDITIONAL
+io :: crates :: compressor :: v_0_3_0,io :: crates :: time_calc :: v_0_11_1,FALSE,import of DS,TYPE-ONLY-DEP
+io :: crates :: fruently :: v_0_7_2,io :: crates :: skeptic :: v_0_4_0,TRUE,not written in the codebase,NOT-IMPORT
+io :: crates :: tar_parser :: v_0_0_1,io :: crates :: nom :: v_0_3_11,TRUE,"Only used as return type, only called in mod test {}",NOT-IMPORT
+io :: crates :: piston_music :: v_0_20_0,io :: crates :: current :: v_0_1_2,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: searchspot :: v_0_11_2,io :: crates :: logger :: v_0_1_0,TRUE,"logger used in server.rs, but this is not exported as a module in lib.rs",NOT-IMPORT
+io :: crates :: djangohashers :: v_0_3_0,io :: crates :: fastpbkdf2 :: v_0_1_0,FALSE,"#[cfg(feature=""fpbkdf2"")]",CONDITIONAL
+io :: crates :: netopt :: v_0_1_3,io :: crates :: mqtt3 :: v_0_1_4,FALSE,empty impl of DS from the dependency,TYPE-ONLY-DEP
+io :: crates :: bip_utracker :: v_0_3_2,io :: crates :: umio :: v_0_3_0,TRUE,calls are made in client/server but not exported in lib,NOT-IN-LIB
+io :: crates :: opentype :: v_0_9_1,io :: crates :: postscript :: v_0_4_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: trust_dns :: v_0_9_3,io :: crates :: untrusted :: v_0_3_2,TRUE,unused depedency/not imported,NOT-IMPORT
+io :: crates :: joseki :: v_0_0_1,io :: crates :: regex :: v_0_2_6,TRUE,not exported in lib,NOT-IN-LIB
+io :: crates :: wabt :: v_0_1_7,io :: crates :: wabt_sys :: v_0_1_5,FALSE,unsafe bracket,C-CALL
+io :: crates :: ciruela :: v_0_5_4,io :: crates :: ssh_keys :: v_0_1_0,FALSE,missing def,GENERIC-FUNC-DF
+io :: crates :: gltile :: v_0_0_2,io :: crates :: pixset :: v_0_0_2,FALSE,Import of DS but no function calls,TYPE-ONLY-DEP
+io :: crates :: sparkly :: v_0_1_4,io :: crates :: termion :: v_1_5_1,FALSE,-,CONDITIONAL
+io :: crates :: gateway :: v_0_0_0,io :: crates :: crowbar :: v_0_2_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: num :: v_0_1_31,io :: crates :: rand :: v_0_3_22,FALSE,called but with conditional flags,CONDITIONAL
+io :: crates :: compressor :: v_0_3_0,io :: crates :: dsp_chain :: v_0_13_1,FALSE,import of DS,TYPE-ONLY-DEP
+io :: crates :: gl_generator :: v_0_9_0,io :: crates :: log :: v_0_4_1,FALSE,macro calls,MACRO
+io :: crates :: ipnetwork :: v_0_6_0,io :: crates :: ip :: v_1_1_1,FALSE,imports an enum only,TYPE-ONLY-DEP
+io :: crates :: nailgun :: v_0_1_0,io :: crates :: tempdir :: v_0_3_6,TRUE,-,NOT-IMPORT
+io :: crates :: cobalt_bin :: v_0_2_0,io :: crates :: ghp :: v_0_1_2,TRUE,not imported,NOT-IMPORT
+io :: crates :: conch_runtime :: v_0_1_3,io :: crates :: conch_parser :: v_0_1_0,FALSE,"Enum and Structs, building AST",TYPE-ONLY-DEP
+io :: crates :: rados_hi :: v_0_2_2,io :: crates :: ceph_rust :: v_0_1_17,FALSE,calls made (C-style),C-CALL
+io :: crates :: idmap :: v_0_2_0,io :: crates :: petgraph :: v_0_4_11,FALSE,-,CONDITIONAL
+io :: crates :: hlua :: v_0_2_0,io :: crates :: lua52_sys :: v_0_1_1,TRUE,-,NOT-IMPORT
+io :: crates :: self_meter :: v_0_4_2,io :: crates :: quick_error :: v_1_2_1,FALSE,macros,MACRO
+io :: crates :: petri :: v_0_0_2,io :: crates :: len_trait :: v_0_6_1,TRUE,imported but not used,NOT-IMPORT
+io :: crates :: csv_core :: v_0_1_4,io :: crates :: memchr :: v_2_0_1,FALSE,"appear as C-SYMBOL, call is preent",C-CALL
+io :: crates :: gerrit_rust :: v_0_1_6,io :: crates :: toml_config :: v_0_4_0,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: idmap :: v_0_2_0,io :: crates :: serde :: v_1_0_27,FALSE,-,CONDITIONAL
+io :: crates :: libxml :: v_0_0_748,io :: crates :: libc :: v_0_1_12,FALSE,"C-symbol in call graph, use also c datatypes",C-CALL
+io :: crates :: gear :: v_0_1_3,io :: crates :: rrt :: v_0_3_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: resource_proof :: v_0_1_0,io :: crates :: clap :: v_2_14_1,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: streebog :: v_0_3_0,io :: crates :: digest :: v_0_4_0,FALSE,"no calls, imported as DS",TYPE-ONLY-DEP
+io :: crates :: statsd :: v_0_7_0,io :: crates :: clock_ticks :: v_0_1_1,TRUE,only called in client.rs (not part of lib),NOT-IN-LIB
+io :: crates :: cssparser :: v_0_22_0,io :: crates :: cssparser_macros :: v_0_3_0,FALSE,fns invoked for creating macros,MACRO
+io :: crates :: minutae :: v_0_2_0,io :: crates :: uuid :: v_0_3_1,FALSE,"Dynamic call, see &entity ",DYNAMIC-CALL
+io :: crates :: telegram_bot_client :: v_0_1_0,io :: crates :: telegram_bot_types :: v_0_1_4,TRUE,-,NOT-IMPORT
+io :: crates :: i3nator :: v_1_0_0,io :: crates :: getch :: v_0_1_1,FALSE,-,CONDITIONAL
+io :: crates :: colored :: v_1_0_0,io :: crates :: ansi_term :: v_0_7_5,TRUE,only used in test,TEST-CODE
+io :: crates :: rudy :: v_0_1_0,io :: crates :: nodrop :: v_0_1_12,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: tokio_file_unix :: v_0_2_0,io :: crates :: mio :: v_0_6_13,FALSE,a dynamic invocation,DYNAMIC-CALL
+io :: crates :: riscv :: v_0_1_3,io :: crates :: bare_metal :: v_0_1_1,FALSE,unsafe closure,C-CALL
+io :: crates :: decimal :: v_2_0_0,io :: crates :: bitflags :: v_1_0_1,FALSE,macro call,MACRO
+io :: crates :: ranagrams :: v_0_1_2,io :: crates :: mpmc :: v_0_1_5,TRUE,not imported,NOT-IMPORT
+io :: crates :: lithos :: v_0_14_2,io :: crates :: unshare :: v_0_2_0,TRUE,not imported in lib.rs,NOT-IN-LIB
+io :: crates :: rs_es :: v_0_7_0,io :: crates :: serde_derive :: v_0_8_23,FALSE,-,CONDITIONAL
+io :: crates :: topaz :: v_0_2_0,io :: crates :: time :: v_0_1_39,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: postgres_binary_copy :: v_0_1_1,io :: crates :: postgres :: v_0_10_2,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: r2d2 :: v_0_8_0,io :: crates :: antidote :: v_1_0_0,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: rodio :: v_0_3_3,io :: crates :: vorbis :: v_0_0_14,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: corruption :: v_0_1_2,io :: crates :: handlebars :: v_0_20_5,FALSE,generic function call,CALL-IN-GEN-DEF
+io :: crates :: nsutils :: v_0_0_5,io :: crates :: unshare :: v_0_1_15,FALSE,"import, use and assign of enum values",TYPE-ONLY-DEP
+io :: crates :: opus_parse :: v_0_0_3,io :: crates :: minidom :: v_0_3_2,TRUE,"unused dependency, not imported",NOT-IMPORT
+io :: crates :: rucaja :: v_0_4_2,io :: crates :: jni_sys :: v_0_3_0,FALSE,calls made inside unsafe closure,C-CALL
+io :: crates :: len_trait :: v_0_2_3,io :: crates :: enum_set :: v_0_0_7,FALSE,Conditional comp (although no calls made),CONDITIONAL
+io :: crates :: miscreant :: v_0_3_0,io :: crates :: cmac :: v_0_1_0,FALSE,only declared and used as types,TYPE-ONLY-DEP
+io :: crates :: merkle :: v_0_1_0,io :: crates :: rust_crypto :: v_0_2_36,TRUE,not imported,NOT-IMPORT
+io :: crates :: npnc :: v_0_1_1,io :: crates :: hazard :: v_0_2_0,FALSE,-,CONDITIONAL
+io :: crates :: rotor_dns :: v_0_1_0,io :: crates :: rotor :: v_0_5_1,FALSE,-,CALL-IN-GEN-DEF
+io :: crates :: poisson :: v_0_7_0,io :: crates :: lazy_static :: v_0_1_16,FALSE,macro,MACRO
+io :: crates :: cocaine :: v_0_1_0,io :: crates :: rmp :: v_0_8_7,TRUE,empty package,NOT-IMPORT

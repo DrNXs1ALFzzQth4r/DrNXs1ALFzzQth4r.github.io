@@ -1,0 +1,43 @@
+UFI,Affected Packages ,PCDN
+io :: crates :: bindgen :: v_0_30_0 :: bindgen :: Bindings :: generate ,0,
+io :: crates :: cpal :: v_0_4_6 :: cpal :: cpal_impl :: Endpoint :: get_supported_formats_list,8,16
+io :: crates :: cpal :: v_0_4_6 :: cpal :: cpal_impl :: Endpoint :: get_name,8,16
+io :: crates :: csrf :: v_0_2_8 :: csrf :: core :: UnencryptedCsrfToken :: token,0,
+io :: crates :: csrf :: v_0_3_0 :: csrf :: core :: UnencryptedCsrfToken :: token,0,
+io :: crates :: eudex :: v_0_1_1 :: eudex :: similar,0,
+io :: crates :: gcc :: v_0_3_54 :: gcc :: compile_library,0,
+io :: crates :: glib :: v_0_4_1 :: glib :: auto :: functions :: format_size_for_display,0,
+io :: crates :: i3ipc :: v_0_8_2 :: i3ipc :: I3Connection :: command,0,
+io :: crates :: lm4f120 :: v_0_2_0 :: lm4f120 :: uart :: Uart :: read_single,0,
+io :: crates :: lm4f120 :: v_0_3_0 :: lm4f120 :: uart :: Uart :: read_single,0,
+io :: crates :: lm4f120 :: v_0_5_1 :: lm4f120 :: uart :: Uart :: read_single,0,
+io :: crates :: lm4f120 :: v_0_7_0 :: lm4f120 :: uart :: Uart :: read_single,0,
+io :: crates :: lodepng :: v_2_1_2 :: lodepng :: auto_choose_color,0,
+io :: crates :: radiant_rs :: v_0_11_2 :: radiant_rs :: core :: font :: Font :: with_size,0,
+io :: crates :: slog :: v_1_7_1 :: slog :: OwnedKeyValueList :: new,63,93
+io :: crates :: slog :: v_1_7_1 :: slog :: OwnedKeyValueList :: root,63,93
+o :: crates :: slog :: v_1_7_1 :: slog :: OwnedKeyValueList :: id,63,93
+io :: crates :: slog :: v_1_7_1 :: slog :: OwnedKeyValueList :: previous,0,
+io :: crates :: trust_dns :: v_0_10_5 :: trust_dns :: rr :: dnssec :: key_format :: KeyFormat :: encode_key,0,
+io :: crates :: trust_dns :: v_0_11_2 :: trust_dns :: rr :: resource :: Record :: add_name,0,
+io :: crates :: trust_dns :: v_0_11_2 :: trust_dns :: rr :: dnssec :: key_format :: KeyFormat :: encode_key,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: dnssec :: key_format :: KeyFormat :: encode_key,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: resource :: Record :: add_name,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: domain :: Name :: append,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: domain :: Name :: add_label,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: domain :: Name :: prepend_label,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: domain :: Name :: label,0,
+io :: crates :: trust_dns :: v_0_12_0 :: trust_dns :: rr :: domain :: Name :: with_labels,0,
+io :: crates :: winit :: v_0_10_1 :: winit :: window :: < impl io :: crates :: winit :: v_0_10_1 :: winit :: Window > :: get_inner_size_points,0,
+io :: crates :: winit :: v_0_10_1 :: winit :: window :: < impl io :: crates :: winit :: v_0_10_1 :: winit :: Window > :: get_inner_size_pixels,0,
+io :: crates :: winit :: v_0_10_1 :: winit :: platform :: platform :: Window :: platform_display,0,
+io :: crates :: winit :: v_0_10_1 :: winit :: platform :: platform :: Window :: platform_window,0,
+< io :: crates :: winit :: v_0_10_1 :: winit :: Window as io :: crates :: winit :: v_0_10_1 :: winit :: os :: unix :: WindowExt > :: is_ready,0,
+io :: crates :: winit :: v_0_6_4 :: winit :: platform :: platform :: Window2 :: platform_window,12,36
+io :: crates :: winit :: v_0_6_4 :: winit :: platform :: platform :: Window2 :: platform_display,12,36
+io :: crates :: winit :: v_0_7_6 :: winit :: platform :: platform :: Window2 :: platform_display,50,91
+io :: crates :: winit :: v_0_7_6 :: winit :: window :: < impl io :: crates :: winit :: v_0_7_6 :: winit :: Window > :: platform_window,50,91
+io :: crates :: winit :: v_0_8_3 :: winit :: platform :: platform :: Window :: platform_window,14,44
+io :: crates :: winit :: v_0_8_3 :: winit :: platform :: platform :: Window :: platform_display,14,44
+io :: crates :: winit :: v_0_9_0 :: winit :: platform :: platform :: Window :: platform_window,16,31
+io :: crates :: winit :: v_0_9_0 :: winit :: platform :: platform :: Window :: platform_display,16,31

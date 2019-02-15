@@ -1,0 +1,292 @@
+Dependent,PDN?,PCDN?,Actual,Evidence,Reason
+io :: crates :: biscuit :: v_0_0_1,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_2,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_3,YES,NO,NO,,no invocation of said method
+io :: crates :: chain :: v_0_1_1,YES,NO,NO,no callgraph,error: no matching version `^0.4.3` found for package `ring` (required by `chain`)
+io :: crates :: csrf :: v_0_0_1,YES,NO,NO,no callgraph,no matching version `^0.7` found for package `ring` (required by `csrf`) 
+io :: crates :: iron_csrf :: v_0_0_1,YES,NO,NO,no callgraph,error: no matching version `^0.7` found for package `ring` (required by `iron-csrf`)
+io :: crates :: iron_csrf :: v_0_0_10,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_2,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_3,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_4,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_5,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_6,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_7,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_8,YES,NO,NO,no callgraph,-
+io :: crates :: iron_csrf :: v_0_0_9,YES,NO,NO,no callgraph,-
+io :: crates :: jsonwebtoken :: v_2_0_0,YES,NO,NO,no callgraph,error: no matching version `^0.7` found for package `ring` (required by `jsonwebtoken`)
+io :: crates :: jsonwebtoken :: v_2_0_0_beta_1,YES,NO,NO,no callgraph,error: no matching version `^0.7` found for package `ring` (required by `jsonwebtoken`)
+io :: crates :: nss_webpki :: v_0_3_2,YES,NO,NO,no callgraph,error: no matching version `^0.3.0` found for package `webpki` (required by `nss-webpki`)
+io :: crates :: ring :: v_0_2_0,YES,NO,NO,no callgraph,the trait bound code error
+io :: crates :: ring :: v_0_2_1,YES,NO,NO,no callgraph,the trait bound code error
+io :: crates :: ring :: v_0_2_2,YES,NO,NO,no callgraph,the trait bound code error
+io :: crates :: ring :: v_0_2_3,YES,NO,NO,no callgraph,the trait bound code error
+io :: crates :: ring :: v_0_3_0,YES,NO,NO,no callgraph,the trait bound `&&std::vec::Vec<std::string::String>: std::iter::Iterator` is not satisfied
+io :: crates :: ring :: v_0_3_1,YES,NO,NO,no callgraph,the trait bound `&&std::vec::Vec<std::string::String>: std::iter::Iterator` is not satisfied
+io :: crates :: ring :: v_0_4_0,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_4_1,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_4_2,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_4_3,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_5_0,YES,NO,NO,no callgraph,error[E0277] (same as above)
+io :: crates :: ring :: v_0_5_1,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_5_2,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_5_3,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_6_0,YES,NO,NO,no callgraph,error[E0277] (same as above)
+io :: crates :: ring :: v_0_6_0_alpha,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_6_0_alpha1,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_6_1,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_6_2,YES,NO,NO,no callgraph,-
+io :: crates :: ring :: v_0_6_3,YES,YES,YES,,
+io :: crates :: ring :: v_0_7_0,YES,YES,YES,,
+io :: crates :: ring :: v_0_7_1,YES,YES,YES,,
+io :: crates :: ring :: v_0_7_2,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_2_alpha1,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_2_alpha2,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_3,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_4,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_5,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_5_alpha1,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_5_alpha2,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_5_alpha3,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_7_6,YES,NO,NO,no callgraph,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ruma_signatures :: v_0_1_0,YES,NO,NO,no callgraph and not buildable,
+io :: crates :: ruma_signatures :: v_0_2_0,YES,NO,NO,no callgraph and not buildable,error: no matching version `^0.6.2` found for package `ring` (required by `ruma-signatures`)
+io :: crates :: ruma_signatures :: v_0_2_1,YES,NO,NO,no callgraph and not buildable,
+io :: crates :: ruma_signatures :: v_0_3_0,YES,NO,NO,no callgraph and not buildable,no matching version `^0.7` found for package `ring` (required by `ruma-signatures`)
+io :: crates :: rustls :: v_0_1_0,YES,NO,NO,no callgraph and not buildable,error: no matching version `^0.3` found for package `ring` (required by `rustls`)
+io :: crates :: rustls :: v_0_1_1,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_1_2,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_0,YES,NO,NO,no callgraph and not buildable,error: no matching version `^0.4` found for package `ring` (required by `rustls`)
+io :: crates :: rustls :: v_0_5_1,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_2,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_3,YES,NO,NO,no callgraph and not buildable,error: no matching version `^0.6.0-alpha1` found for package `ring` (required by `rustls`)
+io :: crates :: rustls :: v_0_5_4,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_5,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_6,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_7,YES,NO,NO,no callgraph and not buildable,-
+io :: crates :: rustls :: v_0_5_8,YES,NO,NO,no callgraph and not buildable,no matching version `^0.7` found for package `ring` (required by `rustls`)
+io :: crates :: signify :: v_0_3_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.4.3` found for package `ring` (required by `signify`)
+io :: crates :: thrussh :: v_0_10_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.7` found for package `ring` (required by `thrussh`)
+io :: crates :: thrussh :: v_0_10_1,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_10_2,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_7_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.6.0-alpha` found for package `ring` (required by `thrussh`)
+io :: crates :: thrussh :: v_0_8_0,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_8_1,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_8_2,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.6.1` found for package `ring` (required by `thrussh`)
+io :: crates :: thrussh :: v_0_8_4,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_9_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.6.3` found for package `ring` (required by `thrussh`)
+io :: crates :: thrussh :: v_0_9_1,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_9_2,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: thrussh :: v_0_9_3,YES,NO,NO,"no callgraph, no invocation",-
+io :: crates :: trust_dns :: v_0_10_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.7` found for package `ring` (required by `trust-dns`)
+io :: crates :: trust_dns :: v_0_10_1,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.7` found for package `ring` (required by `trust-dns`)
+io :: crates :: trust_dns :: v_0_9_3,YES,NO,NO,no invocation of said method,
+io :: crates :: twist_jwt :: v_0_1_0,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.7.1` found for package `ring` (required by `twist-jwt`)
+io :: crates :: twist_jwt :: v_0_2_0,YES,NO,NO,"no callgraph, no invocation",
+io :: crates :: twist_jwt :: v_0_3_0,YES,NO,NO,"no callgraph, no invocation",
+io :: crates :: twist_jwt :: v_0_3_1,YES,NO,NO,"no callgraph, no invocation",error: no matching version `^0.7.1` found for package `ring` (required by `twist-jwt`)
+io :: crates :: verify_tls_cert :: v_0_1_0,YES,NO,YES,src/tls.rs:264:    input.skip_and_get_input(len).map_err(|_| Error::DecodeError),error: no matching version `^0.7.1` found for package `ring` (required by `twist-jwt`)
+io :: crates :: webpki :: v_0_1_1,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_10_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_10_1,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_10_2,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_2_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_2_1,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_2_2,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_3_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_4_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_5_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_5_1,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_7_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_8_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_9_0,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_9_1,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki :: v_0_9_2,YES,NO,YES,let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,error: no matching version `^0.7` found for package `ring` (required by `webpki`)
+io :: crates :: webpki_roots :: v_0_1_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_2_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_3_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_4_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_5_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_6_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_6_1,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_7_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: webpki_roots :: v_0_8_0,YES,NO,NO,no callgraph,error: no matching version `^0.10` found for package `webpki` (required by `webpki-roots`)
+io :: crates :: biscuit :: v_0_0_4,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_5,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_6,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_7,YES,NO,NO,,no invocation of said method
+io :: crates :: biscuit :: v_0_0_8,YES,NO,NO,,no invocation of said method
+io :: crates :: congredi :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: derp :: v_0_0_1,YES,YES,YES,0.0.1/src/der.rs:105:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_10,YES,YES,YES,0.0.10/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_2,YES,YES,YES,0.0.2/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_3,YES,YES,YES,0.0.3/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_4,YES,YES,YES,0.0.4/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_5,YES,YES,YES,0.0.5/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_6,YES,YES,YES,0.0.6/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_7,YES,YES,YES,0.0.7/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_8,YES,YES,YES,0.0.8/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: derp :: v_0_0_9,YES,YES,YES,0.0.9/src/der.rs:140:    let inner = input.skip_and_get_input(length)?;,
+io :: crates :: http_signatures :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: http_signatures :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: http_signatures :: v_0_1_2,YES,NO,NO,,no invocation of said method
+io :: crates :: http_signatures :: v_0_1_3,YES,NO,YES,compile error,Error: Rocket codegen requires a more recent version of rustc.
+io :: crates :: jsonwebtoken :: v_2_0_1,YES,NO,NO,,no invocation of said method
+io :: crates :: jsonwebtoken :: v_2_0_2,YES,NO,NO,,no invocation of said method
+io :: crates :: jsonwebtoken :: v_2_0_3,YES,NO,NO,,no invocation of said method
+io :: crates :: jsonwebtoken :: v_3_0_0,YES,NO,NO,,no invocation of said method
+io :: crates :: jsonwebtoken :: v_4_0_0,YES,NO,NO,,no invocation of said method
+io :: crates :: libmaj :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: libmaj :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: libmaj :: v_0_1_2,YES,NO,NO,,no invocation of said method
+io :: crates :: libmaj :: v_0_1_3,YES,NO,NO,,no invocation of said method
+io :: crates :: libmaj :: v_0_1_4,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_6_0,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_6_1,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_7_0,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_7_2,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_7_3,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_8_0,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_8_1,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_8_2,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_8_3,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul :: v_0_9_0_beta1,YES,NO,NO,,no invocation of said method
+io :: crates :: libpijul_compat :: v_0_8_7,YES,NO,NO,,no invocation of said method
+io :: crates :: merkle_rs :: v_0_0_1,YES,NO,NO,,no invocation of said method
+io :: crates :: ring :: v_0_10_0,YES,NO,YES,0.10.0/src/ec/suite_b/ecdsa.rs:238:    let r = input.skip_and_get_input(scalar_len)?;,error: use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_11_0,YES,NO,YES,0.11.0/src/ec/curve25519/ed25519.rs:235:            let s = input.skip_and_get_input(SCALAR_LEN)?;,-
+io :: crates :: ring :: v_0_12_0,YES,NO,YES,0.12.0/src/ec/curve25519/ed25519.rs:235:            let s = input.skip_and_get_input(SCALAR_LEN)?;,-
+io :: crates :: ring :: v_0_12_1,YES,NO,YES,0.12.1/src/ec/curve25519/ed25519.rs:231:            let r = input.skip_and_get_input(ELEM_LEN)?;,-
+io :: crates :: ring :: v_0_8_0,YES,NO,YES,0.8.0/src/ec/suite_b/ecdsa.rs:141:    let s = try!(input.skip_and_get_input(scalar_len));,-
+io :: crates :: ring :: v_0_8_0_alpha1,YES,NO,YES,0.8.0-alpha1/src/ec/curve25519/ed25519.rs:180:            let s = try!(input.skip_and_get_input(SCALAR_LEN));,use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: ring :: v_0_8_1,YES,NO,YES,0.8.1/src/der.rs:88:    let inner = try!(input.skip_and_get_input(length));,-
+io :: crates :: ring :: v_0_9_0,YES,NO,YES,0.9.0/src/ec/suite_b/ecdsa.rs:140:    let r = try!(input.skip_and_get_input(scalar_len));,-
+io :: crates :: ring :: v_0_9_1,YES,NO,YES,0.9.1/src/ec/suite_b/ecdsa.rs:141:    let s = try!(input.skip_and_get_input(scalar_len));,-
+io :: crates :: ring :: v_0_9_2,YES,NO,YES,0.9.2/src/ec/suite_b/ecdsa.rs:141:    let s = try!(input.skip_and_get_input(scalar_len));,-
+io :: crates :: ring :: v_0_9_3,YES,NO,YES,0.9.3/src/ec/curve25519/ed25519.rs:234:            let r = try!(input.skip_and_get_input(ELEM_LEN));,-
+io :: crates :: ring :: v_0_9_4,YES,NO,YES,0.9.4/src/ec/suite_b/ecdsa.rs:141:    let s = try!(input.skip_and_get_input(scalar_len));,-
+io :: crates :: ring :: v_0_9_5,YES,NO,YES,0.9.5/src/ec/curve25519/ed25519.rs:236:            let r = try!(input.skip_and_get_input(ELEM_LEN));,-
+io :: crates :: ring :: v_0_9_6,YES,NO,YES,0.9.6/src/ec/curve25519/ed25519.rs:238:            let r = try!(input.skip_and_get_input(ELEM_LEN));,
+io :: crates :: ring :: v_0_9_7,YES,NO,YES,0.9.7/src/der.rs:88:    let inner = try!(input.skip_and_get_input(length));,use of deprecated item 'gcc::Config': gcc::Config has been renamed to gcc::Build
+io :: crates :: roughenough :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: roughenough :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: roughenough :: v_0_2_1,YES,NO,NO,,no invocation of said method
+io :: crates :: ruma_signatures :: v_0_4_0,YES,NO,NO,,no invocation of said method
+io :: crates :: rustls :: v_0_10_0,YES,NO,NO,,no invocation of said method
+io :: crates :: rustls :: v_0_11_0,YES,NO,NO,,no invocation of said method
+io :: crates :: rustls :: v_0_6_0,YES,NO,NO,,no invocation of said method
+io :: crates :: rustls :: v_0_7_0,YES,NO,NO,,error: no matching version `^0.11` found for package `webpki` (required by `rustls`)
+io :: crates :: rustls :: v_0_8_0,YES,NO,NO,,no invocation of said method
+io :: crates :: rustls :: v_0_9_0,YES,NO,NO,,no invocation of said method
+io :: crates :: sct :: v_0_1_0,YES,YES,YES,0.1.0/src/lib.rs:157:                let sig_alg = rd.skip_and_get_input(2),no invocation of said method
+io :: crates :: sct :: v_0_1_1,YES,YES,YES,0.1.1/src/lib.rs:204:                let exts = rd.skip_and_get_input(ext_len as usize),
+io :: crates :: sct :: v_0_1_2,YES,YES,YES,0.1.2/src/lib.rs:197:                let timestamp = rd.skip_and_get_input(8),
+io :: crates :: sct :: v_0_1_3,YES,YES,YES,0.1.3/src/lib.rs:209:                let ext_len = rd.skip_and_get_input(2),
+io :: crates :: sct :: v_0_1_4,YES,YES,YES,0.1.4/src/lib.rs:217:                let sig_len = rd.skip_and_get_input(2),
+io :: crates :: sct :: v_0_2_0,YES,YES,YES,0.2.0/src/lib.rs:202:                let id = rd.skip_and_get_input(32),
+io :: crates :: silk :: v_0_2_3,YES,NO,NO,,
+io :: crates :: silk :: v_0_3_0,YES,NO,NO,,
+io :: crates :: thrussh :: v_0_10_3,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_10_4,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_10_5,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_11_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_12_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_12_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_13_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_13_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_13_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_13_3,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_13_4,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_14_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_15_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_15_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_15_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_15_3,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_16_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_16_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh :: v_0_16_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_2_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_2_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_2_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_3_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_3_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_3_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_4_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_5_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_6_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_7_0,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_7_1,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_7_2,YES,NO,NO,,no invocation of said method
+io :: crates :: thrussh_keys :: v_0_7_3,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_10_2,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_10_3,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_10_4,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_10_5,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_11_0,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_11_1,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_11_2,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_11_3,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_12_0,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns :: v_0_13_0,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns_proto :: v_0_2_0,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns_proto :: v_0_3_0,YES,NO,NO,,no invocation of said method
+io :: crates :: trust_dns_proto :: v_0_3_1,YES,NO,NO,,no invocation of said method
+io :: crates :: tuf :: v_0_0_3,YES,NO,YES,error: multiple input filenames provided,
+io :: crates :: tuf :: v_0_1_0,YES,NO,YES,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`),
+io :: crates :: tuf :: v_0_1_1,YES,NO,YES,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`),
+io :: crates :: tuf :: v_0_1_2,YES,NO,NO,Updating registry `file:///data/crates.io-index`,
+io :: crates :: tuf :: v_0_1_3,YES,NO,YES,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`),
+io :: crates :: tuf :: v_0_1_4,YES,NO,YES,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`),
+io :: crates :: tuf :: v_0_1_5,YES,NO,YES,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`),
+io :: crates :: tuf :: v_0_1_6,YES,NO,YES,0.1.6/src/rsa/der.rs:88:    let inner = input.skip_and_get_input(length)?;,error: no matching version `^0.3.1` found for package `chrono` (required by `tuf`)
+io :: crates :: tuf :: v_0_1_7,YES,YES,YES,0.1.7/src/rsa/der.rs:88:    let inner = input.skip_and_get_input(length)?;,there is a callgraph for this version
+io :: crates :: tuf :: v_0_2_0,YES,NO,NO,,no invocation of said method
+io :: crates :: tuf :: v_0_3_0_alpha1,YES,NO,NO,,no invocation of said method
+io :: crates :: tuf :: v_0_3_0_alpha2,YES,NO,NO,,no invocation of said method
+io :: crates :: tuf :: v_0_3_0_alpha3,YES,NO,NO,,no invocation of said method
+io :: crates :: u2f :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: u2f :: v_0_1_2,YES,NO,NO,,no invocation of said method
+io :: crates :: untrustended :: v_0_0_1,YES,NO,NO,,no invocation of said method
+io :: crates :: untrustended :: v_0_0_2,YES,NO,NO,,no invocation of said method
+io :: crates :: untrustended :: v_0_1_0,YES,YES,YES,0.1.0/src/lib.rs:426:        self.skip_and_get_input(num_bytes),
+io :: crates :: walmart_partner_api :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: web_push :: v_0_1_0,YES,NO,NO,,no invocation of said method
+io :: crates :: web_push :: v_0_1_1,YES,NO,NO,,no invocation of said method
+io :: crates :: web_push :: v_0_2_0,YES,NO,NO,,no invocation of said method
+io :: crates :: web_push :: v_0_2_1,YES,NO,NO,,no invocation of said method
+io :: crates :: web_push :: v_0_2_2,YES,NO,NO,,no invocation of said method
+io :: crates :: webpki :: v_0_11_0,YES,YES,YES,0.11.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_12_0,YES,YES,YES,0.12.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_12_1,YES,YES,YES,0.12.1/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_13_0,YES,YES,YES,0.13.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_14_0,YES,YES,YES,0.14.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_15_0,YES,YES,YES,0.15.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_16_0,YES,YES,YES,0.16.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki :: v_0_17_0,YES,YES,YES,0.17.0/src/name.rs:241:            let mask = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki_roots :: v_0_10_0,YES,NO,NO,,no invocation of said method
+io :: crates :: webpki_roots :: v_0_11_0,YES,NO,NO,,no invocation of said method
+io :: crates :: webpki_roots :: v_0_12_0,YES,NO,NO,,no invocation of said method
+io :: crates :: webpki_roots :: v_0_13_0,YES,NO,NO,,no invocation of said method
+io :: crates :: webpki_roots :: v_0_9_0,YES,NO,YES,error: no matching version `^0.11` found for package `webpki` (required by `webpki-roots`),no callgraph but no call either
+io :: crates :: zif_identity :: v_0_0_1,YES,NO,NO,,no invocation of said method
+io :: crates :: tls_api_test :: v_0_1_10,YES,NO,NO,,imported only
+io :: crates :: tls_api_test :: v_0_1_11,YES,NO,NO,,imported only
+io :: crates :: tls_api_test :: v_0_1_12,YES,NO,NO,,imported only
+io :: crates :: tls_api_test :: v_0_1_13,YES,NO,NO,,imported only
+io :: crates :: sct :: v_0_3_0,YES,NO,NO,,does not invoke said method
+io :: crates :: tls_api_test :: v_0_1_8,YES,NO,NO,,imported only
+io :: crates :: ring :: v_0_13_0_alpha,YES,YES,YES,src/rsa/padding.rs:295:        let masked_db = em.skip_and_get_input(metrics.db_len)?;,
+io :: crates :: tls_api_test :: v_0_1_9,YES,NO,NO,,imported only
+io :: crates :: tls_api_test :: v_0_1_7,YES,NO,NO,,imported only
+io :: crates :: libpijul_compat :: v_0_8_5,YES,NO,NO,,does not invoke said method
+io :: crates :: libpijul_compat :: v_0_8_4,YES,NO,NO,,does not invoke said method
+io :: crates :: libpijul_compat :: v_0_8_3,YES,NO,NO,,does not invoke said method
+io :: crates :: webpki :: v_0_18_0_alpha,YES,YES,YES,src/name.rs:333:            let address = value.skip_and_get_input(constraint.len() / 2).unwrap();,
+io :: crates :: webpki_roots :: v_0_14_0,YES,NO,NO,,only binary and not said method
+io :: crates :: untrustended :: v_0_2_0,YES,YES,YES,0.2.0/src/lib.rs:369:        Ok(self.skip_and_get_input(num_bytes).map(,
+io :: crates :: untrustended :: v_0_2_1,YES,YES,YES,0.2.0/src/lib.rs:369:        Ok(self.skip_and_get_input(num_bytes).map(,
+io :: crates :: libpijul_compat :: v_0_8_6,YES,NO,NO,,does not invoke said method
+io :: crates :: tls_api_test :: v_0_1_14,YES,NO,NO,,imported only
+io :: crates :: rustls :: v_0_12_0,YES,NO,NO,,does not invoke said method
