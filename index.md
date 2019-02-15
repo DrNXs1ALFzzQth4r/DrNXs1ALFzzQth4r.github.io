@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Replication Package
 
-You can use the [editor on GitHub](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This GitHub repository hosts the RustPräzi implementation, datasets and scripts. Below is an outline of the repository:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Datasets
 
-### Markdown
+#### Networks
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- RustPräzi (CDN) is available for download [here](https://archive.org/details/rustprazi) (7.4GB)
+- The Rust PDN is available as a [zip-file](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/PDN/network.zip) in the repository
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+#### [Evaluation](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/tree/master/evaluation)
+- The [18,042 cases](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/evaluation/missing_dep_relationships_in_pcdn.csv)
+- The randomly selected [381 cases](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/evaluation/evaluation_381_cases.csv) for the qualitative study
+- The [20 cases](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/evaluation/inter_rater_reliability_20cases.csv) for inter-rater reliability 
+- A [guide](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/evaluation/review.md) to code review Rust packages (Draft)
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+#### [Security](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/tree/master/security)
+- All the manually analyzed cases are available [here](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/tree/master/security/cases)
 
-**Bold** and _Italic_ and `Code` text
+#### [Deprecation](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/tree/master/deprecation)
+- The extracted [deprecated functions](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/deprecation/extracted_deprecated_functions_from_code.csv) from Rust packages 
+- [Deprecated UFIs](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/deprecation/UFI_with_number_affected.csv) and the number of packages they impact
 
-[Link](url) and ![Image](src)
-```
+### RustPräzi Implementation
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Brief [overview](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/tree/master/source/README.md) of the implementation
+- A snapshot of the [RustPräzi](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/source/prazi.zip)
+- Our modified version of [syn](https://github.com/dtolnay/syn) is available for download [here](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/blob/master/source/syn.zip)
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DrNXs1ALFzzQth4r/DrNXs1ALFzzQth4r.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
